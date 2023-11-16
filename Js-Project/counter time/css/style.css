@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Poppins:wght@300&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.main{
+	width:100%;
+    height:100vh;
+    background-image: url('../image/Screenshot\ 2023-03-09\ 125049.png');
+    background-size: cover;  
+}
+.overlay{
+    width:100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(96, 126, 130, 0.5); */
+    background-color: transparent;
+}
+
+.title{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.col{
+    width: 1000px;
+    height:100px;
+    margin: 10px auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+   text-align: center;
+}
+input{
+    height: 50px;
+    width: 100px;
+    display: block;
+    margin: 10px;
+    background-color: antiquewhite;
+    border-color: transparent;
+    border-radius: 3px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
